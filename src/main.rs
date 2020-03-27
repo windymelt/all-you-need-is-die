@@ -5,7 +5,6 @@ use std::io::{self, Write};
 fn main() {
     // get args
     let args: Vec<String> = env::args().collect();
-    println!("{:?}", args);
  
     //execute command
     let mut cmd = Command::new(&args[1]);
